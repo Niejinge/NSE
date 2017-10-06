@@ -41,10 +41,11 @@ int main()
 	    printf("this is a wrong cmd!\n");
 	    continue;
         }
-	printf("%s - %s", p->cmd, p->desc);
+	printf("%s - %s:\n", p->cmd, p->desc);
 	if(p->handler != NULL)
 	{
 	    p->handler();
+	    printf("===========================\n");
 	}
     }   
 }

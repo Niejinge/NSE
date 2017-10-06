@@ -28,6 +28,7 @@ int ShowAllCmd(tDataNode *head)
     while(p != NULL)
     {
         printf("%s - %s\n", p->cmd, p->desc);
+        printf("===========================\n");
         p = p->next;
     }
 }
