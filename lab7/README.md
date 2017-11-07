@@ -236,7 +236,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-> linktable.h 和linktable.c与上次实验一样,所以就不贴上来了,具体课件github
+> linktable.h 和linktable.c与上次实验一样,所以就不贴上来了,具体可见github
 
 * 试验结果
 
